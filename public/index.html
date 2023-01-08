@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ appTitle }}</title>
+    <title>News Letter</title>
+    <script src="scripts/register.js" defer></script>
     <style>
         body {
             background-color: rgb(237, 148, 16);
@@ -67,7 +68,7 @@
 <body>
     <div class="container">
         <h1>Signup to SOS</h1>
-        <form action="/register" method="POST">
+        <form id="form-register">
             <div class="form-group">
                 <input type="text" name="fName" placeholder="Enter your first name">
             </div>
